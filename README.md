@@ -5,10 +5,9 @@ Saludos desde **SteveDeMaincra** (yo) XD
 
 **No tomes mucha importancia mientras no se use este datapack xddd**
 
-Developers de este datapack:
- - **Mikel6624**
- - **SteveDeMaincra**
-
+Créditos:
+ - **Mikel6624** -- Creador y editor de texture pack
+ - **SteveDeMaincra** -- Creador y programador de datapack
 
 ## Instrucciones de instalacion
 
