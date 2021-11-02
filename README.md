@@ -13,3 +13,5 @@ Developers de este datapack:
 ## Instrucciones de instalacion
 
 Lee instrucciones.txt
+
+(me costó mucho hacer que editando el datapack en el vscode pueda subir mis cambios directamente desde el vscode, uff)
