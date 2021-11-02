@@ -1,0 +1,8 @@
+Instrucciones de instalación
+
+Descomprime/extrae el archivo (sea formato .zip o .rar)
+
+Dirigete a la carpeta amtcore
+
+Luego mueve la carpeta AMTCore a la carpeta de los datapacks del mundo/server seleccionado (mundo/datapack)
+SI ESTÁS SIGUIENDO LAS INSTRUCCIONES Y NO ERES UN DEVELOPER DEL DATAPACK PRECAUCIÓN: ESTÁS HACIENDO ALGO NO PERMITIDO XDXD
