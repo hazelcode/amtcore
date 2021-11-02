@@ -1,6 +1,7 @@
 {
 	"values":
 	[
-		"amtcore:main"
+		"amtcore:main",
+		"amtapi:showdeathmsg"
 	]
 }
