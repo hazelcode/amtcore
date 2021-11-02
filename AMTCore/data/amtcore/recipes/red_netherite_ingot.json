@@ -20,5 +20,6 @@
         "item": "minecraft:nether_brick",
         "red": 1,
         "count": 1
-    }
+    },
+	"group": "red_netherite"
 }

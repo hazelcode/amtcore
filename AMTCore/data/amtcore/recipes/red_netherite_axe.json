@@ -10,5 +10,6 @@
     "result": {
         "item": "minecraft:netherite_axe",
         "red": 1
-    }
+    },
+	"group": "red_netherite"
 }

@@ -10,5 +10,6 @@
     "result": {
         "item": "minecraft:netherite_boots",
         "red": 1
-    }
+    },
+	"group": "red_netherite"
 }
