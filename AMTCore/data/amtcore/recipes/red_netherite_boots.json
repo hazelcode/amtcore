@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_boots"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot",
+        "red": 1
+    },
+    "result": {
+        "item": "minecraft:netherite_boots",
+        "red": 1
+    }
+}
