@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_axe"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot",
+        "red": 1
+    },
+    "result": {
+        "item": "minecraft:netherite_axe",
+        "red": 1
+    }
+}

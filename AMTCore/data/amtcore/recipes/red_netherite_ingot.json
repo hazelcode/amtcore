@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NnN",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_block"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_brick",
+        "red": 1,
+        "count": 1
+    }
+}
