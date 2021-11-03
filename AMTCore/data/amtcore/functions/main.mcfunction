@@ -2,5 +2,6 @@
 
 ## FUNCIONES
 function amtcore:displaydeath
+## function amtcore:crafteos/rednethingot
 
 ## COMANDOS

@@ -17,8 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:nether_brick",
-        "red": 1,
+        "item": "minecraft:command_block",
         "count": 1
     },
 	"group": "red_netherite"
