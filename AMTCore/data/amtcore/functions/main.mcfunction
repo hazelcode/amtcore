@@ -6,3 +6,4 @@ function amtcore:displaydeath
 ## function amtcore:itemfunciones/cuchara/cuchara
 
 ## COMANDOS
+scoreboard players add @a tiempo 1
