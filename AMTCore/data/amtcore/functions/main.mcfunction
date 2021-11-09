@@ -2,8 +2,6 @@
 
 ## FUNCIONES
 function amtcore:displaydeath
-## function amtcore:crafteos/rednethingot
-## function amtcore:itemfunciones/cuchara/cuchara
 
 ## COMANDOS
 scoreboard players add @a tiempo 1
