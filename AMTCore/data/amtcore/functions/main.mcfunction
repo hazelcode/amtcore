@@ -9,6 +9,7 @@ scoreboard players add @a tiempo 1
 
 # Exclusivo del boss rey enderman
 function amtcore:bosses/reyenderman/reyenderman
+function amtcore:settings/bossbars/reyenderman
 function amtcore:bosses/reyenderman/mecanicas/dano
 function amtcore:bosses/reyenderman/mecanicas/evadirbote
 function amtcore:bosses/reyenderman/mecanicas/guerreros
