@@ -1,3 +1,3 @@
 execute as @e[type=minecraft:enderman,tag=reyenderman,scores={cooldowndupe=99..}] at @s run particle minecraft:witch ~ ~ ~ 1 1 1 .1 100
-execute as @e[type=minecraft:enderman,tag=reyenderman,scores={cooldowndupe=100..}] at @s run summon minecraft:skeleton ^2 ^1 ^ {Health:7f,ArmorItems:[{},{},{},{Count:1,id:"diamond_helmet"}]}
+execute as @e[type=minecraft:enderman,tag=reyenderman,scores={cooldowndupe=100..}] at @s run summon minecraft:wither_skeleton ^2 ^1 ^ {Health:1f,ArmorItems:[{},{},{},{Count:1,id:"diamond_helmet"}]}
 scoreboard players reset @e[type=minecraft:enderman,tag=reyenderman,scores={cooldowndupe=101..}] cooldowndupe
