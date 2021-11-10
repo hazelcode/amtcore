@@ -2,7 +2,6 @@
 
 ## FUNCIONES
 function amtcore:displaydeath
-function amtapi:bossbars
 
 ## COMANDOS
 scoreboard players add @a tiempo 1
