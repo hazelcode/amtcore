@@ -10,3 +10,7 @@ scoreboard objectives add tiempoagachar custom:sneak_time
 scoreboard objectives add tiempomuerte custom:time_since_death
 scoreboard objectives add tiempo dummy
 scoreboard objectives add tiempototal custom:total_world_time
+
+## EXCLUSIVOS DE BOSSES
+# Boss rey enderman
+scoreboard objectives add cooldowndupe dummy
