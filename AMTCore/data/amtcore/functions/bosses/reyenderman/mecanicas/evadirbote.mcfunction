@@ -1,0 +1,3 @@
+## Si han pasado mas o menos un mínimo de 3.5 segundos se puede teletransportar a la persona que esté en una distancia menor a 4 bloques, y si no detectó a nadie, entonces como al mínimo de 4 segundos va a detectar a otra persona de nuevo
+execute as @e[type=enderman,tag=reyenderman] at @e[type=enderman,tag=reyenderman] if score @e[type=enderman,tag=reyenderman,limit=1] tiempo matches 700.. run tp @s @r[distance=..4]
+execute as @e[type=enderman,tag=reyenderman] at @e[type=enderman,tag=reyenderman] if score @e[type=enderman,tag=reyenderman,limit=1] tiempo matches 700.. if score @e[type=enderman,tag=reyenderman,limit=1] tiempo matches ..800 run scoreboard players reset @s tiempo
