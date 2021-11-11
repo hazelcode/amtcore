@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dragon_egg"
+      },
+      "title": "Vencedor de la secta de los endermans",
+      "description": "¡Matasta al rey enderman!",
+      "background": "minecraft:obsidian",
+      "frame": "goal",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {},
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:enderman",
+                "team": "bosses"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "amtapi:rewards/pastel",
+      "experience": 200
+    }
+  }
+  
