@@ -1,2 +1,5 @@
 ## Si hay un rey enderman cerca de tí en una distancia menor a 1.5 bloques y has bloqueado un golpe suyo con tu escudo, te va a hacer daño de todas maneras cada 3 segundos mientras la condición del rey enderman se cumpla
 execute as @s at @s run execute if score @s danobloqueado matches 1.. if entity @e[type=enderman,tag=reyenderman,limit=1,distance=..1.5] run effect give @s instant_damage 3 7 true
+## Si el que tiene escudo está un poco más retirado, se invocan vexes
+execute as @s at @s run execute if score @s danobloqueado matches 1.. if entity @e[type=enderman,tag=reyenderman,limit=1,distance=1.6..,distance=..3.5] run summon vex
+execute as @s at @s run execute if score @s danobloqueado matches 1.. if entity @e[type=enderman,tag=reyenderman,limit=1] run scoreboard players reset @a[scores={danobloqueado=1..}] danobloqueado
