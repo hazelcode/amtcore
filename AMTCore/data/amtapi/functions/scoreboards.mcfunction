@@ -12,5 +12,6 @@ scoreboard objectives add tiempo dummy
 scoreboard objectives add tiempototal custom:total_world_time
 
 ## EXCLUSIVOS DE BOSSES
+scoreboard objectives add bossesmatados dummy {"text":"BOSSES MATADOS","color":"red"}
 # Boss rey enderman
 scoreboard objectives add cooldowndupe dummy
