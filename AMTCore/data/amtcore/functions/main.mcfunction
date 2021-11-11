@@ -2,6 +2,9 @@
 
 ## FUNCIONES
 function amtcore:displaydeath
+function amtcore:bosses/teams
+function amtcore:mecanicas/teams
+function amtcore:mecanicas/efectos
 
 ## COMANDOS
 scoreboard players add @a tiempo 1
