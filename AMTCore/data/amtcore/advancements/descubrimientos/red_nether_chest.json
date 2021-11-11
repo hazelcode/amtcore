@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_chestplate"
+      },
+      "title": "La mejor pechera",
+      "description": "Desbloqueaste la pechera de netherite roja",
+      "background": "minecraft:obsidian",
+      "frame": "goal",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "team": "red_netherite_chest"
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "amtapi:rewards/pastel",
+      "experience": 30
+    }
+  }
+  

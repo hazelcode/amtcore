@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots"
+      },
+      "title": "Botas rojízas",
+      "description": "Desbloqueaste las botas de netherite roja",
+      "background": "minecraft:obsidian",
+      "frame": "goal",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "team": "red_netherite_boots"
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_boots"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "amtapi:rewards/spectral",
+      "experience": 15
+    }
+  }
+  

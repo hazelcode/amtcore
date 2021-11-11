@@ -22,3 +22,8 @@ team join red_netherite_leggings @a[tag=red_netherite_leggings]
 team add red_netherite_boots
 tag @a[nbt={Inventory:[{id:"minecraft:netherite_boots",tag:{red:1}}]}] add red_netherite_boots
 team join red_netherite_boots @a[tag=red_netherite_boots]
+
+## RED NETHERITE INGOT
+team add red_netherite_ingot
+tag @a[nbt={Inventory:[{id:"minecraft:netherite_ingot",tag:{red:1}}]}] add red_netherite_ingot
+team join red_netherite_ingot @a[tag=red_netherite_ingot]

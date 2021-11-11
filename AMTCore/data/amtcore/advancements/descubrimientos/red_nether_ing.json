@@ -1,12 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_sword"
+      "item": "minecraft:netherite_ingot"
     },
-    "title": "La espada perfecta",
-    "description": "¡Desbloqueaste la espada de netherite roja!",
+    "title": "Netherite al rojo vivo",
+    "description": "Obtuviste un lingote de netherite roja",
     "background": "minecraft:obsidian",
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true,
     "hidden": false
   },
@@ -20,14 +20,14 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:player",
-              "team": "red_netherite_sword"
+              "team": "red_netherite_ingot"
             }
           }
         ],
         "items": [
           {
             "items": [
-              "minecraft:netherite_sword"
+              "minecraft:netherite_ingot"
             ]
           }
         ]
@@ -35,7 +35,7 @@
     }
   },
   "rewards": {
-    "function": "amtapi:rewards/totem",
-    "experience": 25
+    "function": "amtapi:rewards/spectral",
+    "experience": 15
   }
 }
