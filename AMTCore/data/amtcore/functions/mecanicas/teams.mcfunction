@@ -27,3 +27,11 @@ team join red_netherite_boots @a[tag=red_netherite_boots]
 team add red_netherite_ingot
 tag @a[nbt={Inventory:[{id:"minecraft:netherite_ingot",tag:{red:1}}]}] add red_netherite_ingot
 team join red_netherite_ingot @a[tag=red_netherite_ingot]
+
+## CUCHARA
+team add cuchara
+tag @a[nbt={Inventory:[{id:"minecraft:wooden_shovel",tag:{cuc:1}}]}] add cuchara
+team join cuchara @a[tag=cuchara]
+
+tag @a[nbt=!{Inventory:[{id:"minecraft:wooden_shovel",tag:{cuc:1}}]}] remove cuchara
+execute as @a[tag=!cuchara] at @a[tag=!cuchara] run team remove cuchara

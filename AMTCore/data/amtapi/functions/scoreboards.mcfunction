@@ -10,6 +10,7 @@ scoreboard objectives add tiempoagachar custom:sneak_time
 scoreboard objectives add tiempomuerte custom:time_since_death
 scoreboard objectives add tiempo dummy
 scoreboard objectives add tiempototal custom:total_world_time
+scoreboard objectives add cucharausos dummy
 
 ## EXCLUSIVOS DE BOSSES
 scoreboard objectives add bossesmatados dummy {"text":"BOSSES MATADOS","color":"red"}

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wooden_shovel"
+      },
+      "title": "Ese héroe está aquí",
+      "description": "Obtuviste una cuchara!",
+      "background": "minecraft:obsidian",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "team": "cuchara"
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:wooden_shovel"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_shovel"
+      },
+      "title": "Por una cuchara...",
+      "description": "Ser revivido por una cuchara",
+      "background": "minecraft:obsidian",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "amtapi:rewards/totemtres",
+      "experience": 400
+    }
+  }  
