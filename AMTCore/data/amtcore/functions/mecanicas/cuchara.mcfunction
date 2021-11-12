@@ -16,6 +16,6 @@ execute as @r[tag=revivir] run tell @r[tag=persona1,scores={cucharausos=..3}] me
 
 
 ## DAR EL LOGRO: POR UNA CUCHARA
-execute as @r[tag=persona1,scores={cucharausos=..3}] run advancement grant @r[tag=revivir] only amtcore:descubrimientos/revividocuchara
-execute as @r[tag=persona1] run tag @s[tag=persona1] remove persona1
-execute as @r[tag=revivir] run tag @a[tag=revivir] remove revivir
+execute as @r[tag=persona1,scores={cucharausos=..3}] run advancement grant @r[tag=revivir,gamemode=survival] only amtcore:descubrimientos/revividocuchara
+execute as @a[tag=persona1] run tag @s[tag=persona1] remove persona1
+execute as @a[tag=revivir] run tag @a[tag=revivir] remove revivir
