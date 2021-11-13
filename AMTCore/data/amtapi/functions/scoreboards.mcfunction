@@ -14,10 +14,10 @@ scoreboard objectives add cucharausos dummy
 
 ## EXCLUSIVOS DE BOSSES
 
-# Boss rey enderman | Desbloqueado desde el dia 30
+# Boss rey enderman | Desbloqueado desde el dia 50
 scoreboard objectives add cooldowndupe dummy
 scoreboard objectives add reyendermatado dummy {"text":"REY ENDERMAN MATADO","color":"red"}
 
-# King Piglin | Desbloqueado desde el día 20
+# King Piglin | Desbloqueado desde el día 40
 scoreboard objectives add pigbrutesmatados killed:piglin_brute
 scoreboard objectives add kingpiglinmatado dummy {"text":"KING PIGLIN MATADO","color":"yellow"}
