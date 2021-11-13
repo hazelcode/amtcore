@@ -18,3 +18,6 @@ function amtcore:bosses/reyenderman/mecanicas/evadirbote
 function amtcore:bosses/reyenderman/mecanicas/guerreros
 scoreboard players add @e[type=enderman,tag=reyenderman] tiempo 1
 scoreboard players add @e[type=enderman,tag=reyenderman] cooldowndupe 1
+
+# Exclusivo del boss King Piglin
+function amtcore:bosses/kingpiglin/kingpiglin

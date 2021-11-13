@@ -35,3 +35,8 @@ team join cuchara @a[tag=cuchara]
 
 tag @a[nbt=!{Inventory:[{id:"minecraft:wooden_shovel",tag:{cuc:1}}]}] remove cuchara
 execute as @a[tag=!cuchara] at @a[tag=!cuchara] run team remove cuchara
+
+## KING PIGLIN LOGRO
+team add vencedordepiglin
+team join cuchara @a[tag=vencedordepiglin]
+scoreboard players set @a[tag=vencedordepiglin] kingpiglinmatado 1

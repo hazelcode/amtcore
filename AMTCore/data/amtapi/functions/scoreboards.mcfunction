@@ -13,6 +13,11 @@ scoreboard objectives add tiempototal custom:total_world_time
 scoreboard objectives add cucharausos dummy
 
 ## EXCLUSIVOS DE BOSSES
-scoreboard objectives add bossesmatados dummy {"text":"BOSSES MATADOS","color":"red"}
-# Boss rey enderman
+scoreboard objectives add reyendermatado dummy {"text":"BOSSES MATADOS","color":"red"}
+
+# Boss rey enderman | Desbloqueado desde el dia 50
 scoreboard objectives add cooldowndupe dummy
+
+# King Piglin | Desbloqueado desde el día 20
+scoreboard objectives add pigbrutesmatados killed:piglin_brute
+scoreboard objectives add kingpiglinmatado dummy {"text":"KING PIGLIN MATADO","color":"yellow"}
