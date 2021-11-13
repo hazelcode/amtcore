@@ -21,3 +21,5 @@ scoreboard players add @e[type=enderman,tag=reyenderman] cooldowndupe 1
 
 # Exclusivo del boss King Piglin
 function amtcore:bosses/kingpiglin/kingpiglin
+function amtcore:bosses/kingpiglin/mecanicas/guerreros
+scoreboard players add @e[type=piglin_brute,tag=reypiglin] cooldowndupe 1
