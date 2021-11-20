@@ -10,6 +10,8 @@ execute as @r[tag=cuchara,gamemode=survival] run tag @s[tag=cuchara,gamemode=sur
 execute as @s[tag=persona1] run tag @r[gamemode=spectator] add revivir
 execute as @s[tag=persona1] run gamemode survival @r[tag=revivir]
 execute as @r[tag=revivir] run scoreboard players remove @s[tag=persona1] cucharausos 1
-execute as @r[tag=persona1,scores={cucharausos=..3}] run tell @r[tag=revivir] te he revivido ;)
+execute as @r[tag=persona1,scores={cucharausos=..2}] run tell @r[tag=revivir] te he revivido ;)
 execute as @r[tag=revivir] run tellraw @s[tag=revivir] {"text":"Has sido revivido(a) por la cuchara de esa persona, agradecele","color":"green"}
-execute as @r[tag=revivir] run tell @r[tag=persona1,scores={cucharausos=..3}] me has revivido
+execute as @r[tag=revivir] run tell @r[tag=persona1,scores={cucharausos=..2}] me has revivido
+execute as @a[tag=persona1] run tag @a[tag=persona1] remove persona1
+execute as @a[tag=revivir] run tag @a[tag=revivir] remove revivir
