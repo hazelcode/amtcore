@@ -6,6 +6,8 @@ function amtcore:bosses/teams
 function amtcore:mecanicas/teams
 function amtcore:mecanicas/efectos
 function amtcore:mecanicas/cuchara
+# Logros
+function amtcore:mecanicas/unlockach
 
 ## COMANDOS
 scoreboard players add @a tiempo 1

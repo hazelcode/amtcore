@@ -28,6 +28,11 @@ team add red_netherite_ingot
 tag @a[nbt={Inventory:[{id:"minecraft:netherite_ingot",tag:{red:1}}]}] add red_netherite_ingot
 team join red_netherite_ingot @a[tag=red_netherite_ingot]
 
+## FULL RED NETHERITE
+team add full_red_netherite
+tag @a[tag=red_netherite_helmet,tag=red_netherite_chest,tag=red_netherite_leggings,tag=red_netherite_boots] add full_red_netherite
+team join full_red_netherite @a[tag=full_red_netherite]
+
 ## CUCHARA
 team add cuchara
 tag @a[nbt={Inventory:[{id:"minecraft:wooden_shovel",tag:{cuc:1}}]}] add cuchara

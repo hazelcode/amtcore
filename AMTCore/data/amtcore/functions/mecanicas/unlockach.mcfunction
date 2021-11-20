@@ -4,3 +4,4 @@ execute as @a[tag=persona1] run tag @a[tag=persona1] remove persona1
 execute as @a[tag=revivir] run tag @a[tag=revivir] remove revivir
 
 ## FULL NETHERITE
+advancement grant @a[tag=full_red_netherite] only amtcore:descubrimientos/red_nether_full
