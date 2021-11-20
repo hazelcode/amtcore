@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "position": {
+      "x": {
+        "min": -100000,
+        "max": 100000
+      },
+      "y": {
+        "min": -100000,
+        "max": 100000
+      },
+      "z": {
+        "min": -100000,
+        "max": 100000
+      }
+    },
+    "block": {
+      "tag": "minecraft:air"
+    }
+  }
+}
