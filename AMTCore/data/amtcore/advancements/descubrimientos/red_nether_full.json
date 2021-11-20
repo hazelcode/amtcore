@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": "¡El set completo!",
+    "description": "Te equipaste la armadura de netherite roja completa",
+    "background": "minecraft:obsidian",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "minecraft:chests/end_city_treasure"
+    ],
+    "experience": 20
+  }
+}
