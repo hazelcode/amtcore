@@ -5,3 +5,6 @@ execute in the_end as @e[type=enderman,tag=reyenderman] run execute store result
 execute in the_end as @e[type=enderman,tag=reyenderman] run bossbar set rey_enderman visible true
 execute in the_end as @e[type=enderman,tag=reyenderman] run bossbar set rey_enderman players @a
 execute in the_end as @e[type=enderman,tag=reyenderman,nbt={DeathTime:1s}] run scoreboard players set @p reyendermatado 1
+execute in the_end as @e[type=enderman,tag=reyenderman,nbt={DeathTime:1s}] run scoreboard players set @p reward_reyender 1
+execute in the_end as @a[scores={reward_reyender=1}] at @a[scores={reward_reyender=1}] run setblock ~ ~-1 ~ chest{Lock:"Llave del rey enderman",LootTable:"amtcore:cofres/totemsvanilla"}
+execute in the_end as @a[scores={reward_reyender=1}] at @a[scores={reward_reyender=1}] run scoreboard players set @s reward_reyender 2
