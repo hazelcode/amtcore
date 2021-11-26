@@ -1,0 +1,20 @@
+{
+	"generate_features": true,
+    "bonus_chest": false,
+    "name": "minecraft:the_end",
+    "ultrawarm": false,
+    "natural": false,
+    "piglin_safe": true,
+    "respawn_anchor_works": false,
+    "bed_works": true,
+    "has_raids": true,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "coordinate_scale": 4,
+    "ambient_light": 0,
+    "logical_height": 256,
+    "effects": "minecraft:overworld",
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "min_y": 0,
+    "height": 512
+}
