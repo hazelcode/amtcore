@@ -1,2 +1,3 @@
-execute in the_nether as @e[type=piglin_brute,tag=reypiglin,scores={cooldowndupe=100..}] at @s run summon minecraft:piglin_brute ^2 ^1 ^ {Health:1f,ArmorItems:[{},{},{Count:1,id:"golden_chestplate"},{}]}
-scoreboard players reset @e[type=minecraft:enderman,tag=reyenderman,scores={cooldowndupe=101..}] cooldowndupe
+execute in the_nether as @e[type=piglin_brute,tag=reypiglin,scores={cooldowndupe=100..}] at @s run summon minecraft:piglin ^2 ^1 ^ {Health:40f,ArmorItems:[{},{},{Count:1,id:"iron_chestplate"},{}],Tags:["guerrero"]}
+execute in the_nether as @e[type=skeleton,tag=guerrero,limit=1] run item replace entity @e[type=minecraft:piglin,tag=guerrero] weapon.mainhand with minecraft:iron_sword{Enchantments:[{id:"sharpness",lvl:10}]}
+scoreboard players reset @e[type=minecraft:piglin_brute,tag=reypiglin,scores={cooldowndupe=101..}] cooldowndupe
