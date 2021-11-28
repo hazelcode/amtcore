@@ -2,5 +2,4 @@
 
 Descomprime/extrae el archivo (sea formato .zip o .rar)
 
-Luego mueve la carpeta AMTCore a la carpeta de los datapacks del mundo/server seleccionado (mundo/datapack)
-SI ESTÁS SIGUIENDO LAS INSTRUCCIONES Y NO ERES UN DEVELOPER DEL DATAPACK PRECAUCIÓN: ESTÁS HACIENDO ALGO NO PERMITIDO XDXD
+Luego mueve la carpeta AMTCore a la carpeta de los datapacks del mundo/server seleccionado (mundo/datapacks)

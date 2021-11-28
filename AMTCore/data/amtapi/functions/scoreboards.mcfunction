@@ -11,8 +11,15 @@ scoreboard objectives add tiempomuerte custom:time_since_death
 scoreboard objectives add tiempo dummy
 scoreboard objectives add tiempototal custom:total_world_time
 scoreboard objectives add cucharausos dummy
+scoreboard objectives add pico.nether.usos used:netherite_pickaxe
+scoreboard objectives add pico.diamante.usos used:diamond_pickaxe
+scoreboard objectives add pico.hierro.usos used:iron_pickaxe
+scoreboard objectives add pico.oro.usos used:golden_pickaxe
+scoreboard objectives add pico.piedra.usos used:stone_pickaxe
+scoreboard objectives add pico.madera.usos used:wooden_pickaxe
 
 ## EXCLUSIVOS DE BOSSES
+scoreboard objectives add bosses.health dummy
 
 # Boss rey enderman | Desbloqueado desde el dia 50
 scoreboard objectives add cooldowndupe dummy
@@ -22,3 +29,6 @@ scoreboard objectives add reward_reyender dummy
 # King Piglin | Desbloqueado desde el día 40
 scoreboard objectives add pigbrutesmatados killed:piglin_brute
 scoreboard objectives add kingpiglinmatado dummy {"text":"KING PIGLIN MATADO","color":"yellow"}
+
+## Encantamientos
+scoreboard objectives add enchants.xp dummy
