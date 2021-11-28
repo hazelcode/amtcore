@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 ﻿Instrucciones de instalación
 
 Descomprime/extrae el archivo (sea formato .zip o .rar)
 
 Luego mueve la carpeta AMTCore a la carpeta de los datapacks del mundo/server seleccionado (mundo/datapacks)
+=======
+﻿Instrucciones de instalación
+
+Descomprime/extrae el archivo (sea formato .zip o .rar)
+
+Luego mueve la carpeta AMTCore a la carpeta de los datapacks del mundo/server seleccionado (mundo/datapacks)
+>>>>>>> eab4adca8c142a097aa913ba814f55173f1af108
