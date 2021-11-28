@@ -10,7 +10,7 @@ Saludos desde **SteveDeMaincra** (yo) XD
 **EQUIPO DE DESARROLLO**
 
  - **Mikel6624** -- Creador y editor de texture pack
- - **SteveDeMaincra** -- Creador y programador de datapack
+ - **SteveDeMaincra** (yo, tacozyt) -- Creador y programador de datapack
 
 ## Instrucciones de instalacion
 
