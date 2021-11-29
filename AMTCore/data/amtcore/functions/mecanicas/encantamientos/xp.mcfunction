@@ -1,4 +1,4 @@
-scoreboard objectives add enchants.xp.valido dummy
+function amtapi:enchants/essentials
 
 ## 0 = no valido. 1 = valido
 scoreboard players set @a[predicate=amtcore:manos/der/pico_diamante] enchants.xp.valido 1

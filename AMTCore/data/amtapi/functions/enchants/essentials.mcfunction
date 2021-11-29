@@ -1,0 +1,1 @@
+scoreboard objectives add enchants.xp.valido dummy
