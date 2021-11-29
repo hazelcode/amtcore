@@ -1,7 +1,23 @@
 function amtapi:enchants/essentials
 
-## 0 = no valido. 1 = valido
-scoreboard players set @a[predicate=amtcore:manos/der/pico_diamante] enchants.xp.valido 1
-scoreboard players set @a[predicate=!amtcore:manos/der/pico_diamante] enchants.xp.valido 0
-scoreboard players set @a[predicate=amtcore:manos/der/pico_nether] enchants.xp.valido 1
-scoreboard players set @a[predicate=!amtcore:manos/der/pico_nether] enchants.xp.valido 0
+## COMANDOS DEL ENCANTAMIENTO
+## NIVEL 1
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_i,scores={enchants.xp.diam=5..}] run xp add @s 100
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_i,scores={enchants.xp.diam=5..}] run scoreboard players reset @s enchants.xp.diam
+
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_i,scores={enchants.xp.nether=5..}] run xp add @s 100
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_i,scores={enchants.xp.nether=5..}] run scoreboard players reset @s enchants.xp.nether
+
+## NIVEL 2
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_ii,scores={enchants.xp.diam=5..}] run xp add @s 200
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_ii,scores={enchants.xp.diam=5..}] run scoreboard players reset @s enchants.xp.diam
+
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_ii,scores={enchants.xp.nether=5..}] run xp add @s 200
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_ii,scores={enchants.xp.nether=5..}] run scoreboard players reset @s enchants.xp.nether
+
+## NIVEL 3
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_iii,scores={enchants.xp.diam=5..}] run xp add @s 300
+execute as @a[predicate=amtcore:manos/der/pico_diamante/xp_iii,scores={enchants.xp.diam=5..}] run scoreboard players reset @s enchants.xp.diam
+
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_iii,scores={enchants.xp.nether=5..}] run xp add @s 200
+execute as @a[predicate=amtcore:manos/der/pico_nether/xp_iii,scores={enchants.xp.nether=5..}] run scoreboard players reset @s enchants.xp.nether

@@ -7,7 +7,8 @@
         "mainhand": {
           "items": [
             "minecraft:netherite_pickaxe"
-          ]
+          ],
+          "nbt": "{xp:3}"
         }
       }
     }

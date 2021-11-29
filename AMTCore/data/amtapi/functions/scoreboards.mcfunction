@@ -29,6 +29,3 @@ scoreboard objectives add reward_reyender dummy
 # King Piglin | Desbloqueado desde el día 40
 scoreboard objectives add pigbrutesmatados killed:piglin_brute
 scoreboard objectives add kingpiglinmatado dummy {"text":"KING PIGLIN MATADO","color":"yellow"}
-
-## Encantamientos
-scoreboard objectives add enchants.xp dummy

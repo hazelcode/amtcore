@@ -43,5 +43,5 @@ execute as @a[tag=!cuchara] at @a[tag=!cuchara] run team remove cuchara
 
 ## KING PIGLIN LOGRO
 team add vencedordepiglin
-team join cuchara @a[tag=vencedordepiglin]
+team join vencedordepiglin @a[tag=vencedordepiglin]
 scoreboard players set @a[tag=vencedordepiglin] kingpiglinmatado 1

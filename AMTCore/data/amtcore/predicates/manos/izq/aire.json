@@ -4,9 +4,9 @@
     "predicate": {
       "type": "minecraft:player",
       "equipment": {
-        "mainhand": {
+        "offhand": {
           "items": [
-            "minecraft:diamond_pickaxe"
+            "minecraft:air"
           ]
         }
       }
