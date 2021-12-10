@@ -1,0 +1,73 @@
+Discord de AmatistaMT (Servidor creador de la modalidad, datapack y resource pack)
+https://discord.gg/f9UjuJsF58
+
+
+CREDITOS:
+
+===================
+ E Q U I P O   D E
+A M A T I S T A H C
+===================
+
+
+Creadores originales
+
+SteveDeMaincra (Discord: Steve de Minecraft#0609)
+Mikel6624 (Discord: mikel1234#3220)
+
+
+Desarrolladores del datapack
+
+SteveDeMaincra (Discord: Steve de Minecraft#0609)
+
+
+Soporte
+
+KernelCraft (Discord: KernelCraft#9757)
+Mikel6624 (Discord: mikel1234#3220)
+
+
+Editores del resource pack
+
+Mikel6624 (Discord: mikel1234#3220)
+
+
+
+PERMISOS:
+
+Referencias:
+
+1.- Equipo de AmatistaHC: El equipo creador y desarrollador de la modalidad, resource pack, y datapack)
+
+2.- AmatistaMT: Servidor del equipo de AmatistaHC, de la modalidad, resource pack y datapack)
+
+3.- Modalidad: Modo de juego
+
+
+Términos y condiciones:
+
+El servidor de AmatistaMT (Servidor creador de la modalidad, datapack y resource pack)
+establece los siguientes permisos para el público en general:
+
+Puedes:
+ - Crear un servidor y utilizar NUESTRA modalidad (Siempre y cuando tengas el permiso del equipo de AmatistaHC)
+ - Poner los cambios de la modalidad (Siempre y cuando NO PONGAS LAS IMAGENES ORIGINALES RESPECTIVAS DE LA MODALIDAD ORIGINAL)
+ - Solicitar el resource pack OBLIGATORIAMENTE (Siempre y cuando NO LO MODIFIQUES)
+
+No puedes:
+ - Modificar el texture pack
+ - Modificar el datapack (No puedes incluir funciones nuevas, modificar funciones ni nada, nisiquiera cambiar la descripción del datapack, NADA)
+ - BORRAR LOS ARCHIVOS DE PERMISOS O NO INCLUIRLOS (Incluyendo éste)
+ - Quitarle créditos al equipo de AmatistaHC (Así es, es obligatorio dar créditos si tu server utiliza nuestra modalidad)
+ - Hacer cambios extra a la modalidad (Sólo puedes incluir los cambios de la modalidad original)
+ - Hacer que el resource pack sea opcional (El resource pack es OBLIGATORIO)
+
+
+El equipo de AmatistaHC establece que sea totalmente obligatorio cumplir los siguientes términos y condiciones:
+
+Debes:
+ - Pedir el resource pack TOTALMENTE OBLIGATORIO O NO SE PUEDE ENTRAR A LA MODALIDAD
+ - Si sabes que están copiando la modalidad, DEBES HACERSELO SABER AL EQUIPO DE AMATISTAHC, Y PEDIRLE A QUIEN COPIE LA MODALIDAD QUE PARE Y CONTACTEO DEBE ELIMINAR TOTALMENTE OBLIGATORIAMENTE SU MODALIDAD
+ - TENER LA MODALIDAD EN MINECRAFT 1.17 O SUPERIOR (En Minecraft 1.16 o inferior NO FUNCIONA)
+
+Si incumples alguno de los términos y condiciones mencionados (Los de "debes" y "puedes") debes CERRAR LA MODALIDAD DE TU SERVIDOR OBLIGATORIAMENTE

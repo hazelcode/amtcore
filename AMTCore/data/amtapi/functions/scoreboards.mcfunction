@@ -17,6 +17,8 @@ scoreboard objectives add pico.hierro.usos used:iron_pickaxe
 scoreboard objectives add pico.oro.usos used:golden_pickaxe
 scoreboard objectives add pico.piedra.usos used:stone_pickaxe
 scoreboard objectives add pico.madera.usos used:wooden_pickaxe
+scoreboard objectives add debug.bosshealth trigger
+scoreboard objectives add emergency.reviveall trigger
 
 ## EXCLUSIVOS DE BOSSES
 scoreboard objectives add bosses.health dummy

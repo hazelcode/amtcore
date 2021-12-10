@@ -12,6 +12,9 @@ function amtcore:mecanicas/unlockach
 ## COMANDOS
 scoreboard players add @a tiempo 1
 
+## BOSSES
+execute store result score @e[tag=reyenderman] bosses.health run data get entity @s[tag=reyenderman] Health
+execute store result score @e[tag=reypiglin] bosses.health run data get entity @s[tag=reypiglin] Health
 # Exclusivo del boss rey enderman
 function amtcore:bosses/reyenderman/reyenderman
 function amtcore:settings/bossbars/reyenderman
@@ -25,3 +28,6 @@ scoreboard players add @e[type=enderman,tag=reyenderman] cooldowndupe 1
 function amtcore:bosses/kingpiglin/kingpiglin
 function amtcore:bosses/kingpiglin/mecanicas/guerreros
 scoreboard players add @e[type=piglin_brute,tag=reypiglin] cooldowndupe 1
+
+## ENCANTAMIENTOS
+function amtcore:mecanicas/enchants/xp
