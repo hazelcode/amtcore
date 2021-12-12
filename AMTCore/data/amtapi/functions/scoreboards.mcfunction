@@ -24,9 +24,9 @@ scoreboard objectives add emergency.reviveall trigger
 scoreboard objectives add bosses.health dummy
 
 # Boss rey enderman | Desbloqueado desde el dia 50
-scoreboard objectives add cooldowndupe dummy
-scoreboard objectives add reyendermatado dummy {"text":"REY ENDERMAN MATADO","color":"red"}
-scoreboard objectives add reward_reyender dummy
+# scoreboard objectives add cooldowndupe dummy
+# scoreboard objectives add reyendermatado dummy {"text":"REY ENDERMAN MATADO","color":"red"}
+# scoreboard objectives add reward_reyender dummy
 
 # King Piglin | Desbloqueado desde el día 40
 scoreboard objectives add pigbrutesmatados killed:piglin_brute

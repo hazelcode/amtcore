@@ -5,6 +5,5 @@ execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run title @s sub
 execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run playsound entity.ender_dragon.death master @a
 
 ## GAME OVER!!
-execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run tell @a :c recordaremos a esa(s) persona(s) con cariño
 execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run function amtapi:sounds/dragonroar
 execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run execute at @s[scores={muertes=1..}] as @s[scores={muertes=1..}] run scoreboard players reset @s[scores={muertes=1..}] muertes

@@ -1,1 +1,1 @@
-bossbar add minecraft:rey_enderman {"text":"Rey enderman","color":"purple"}
+# bossbar add minecraft:rey_enderman {"text":"Rey enderman","color":"purple"}
