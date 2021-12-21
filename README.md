@@ -5,6 +5,8 @@ Saludos desde **SteveDeMaincra** (yo) XD
 
 **No tomes mucha importancia mientras no se use este datapack xddd**
 
+--> [[Sitio de AmatistaHC]](https://tacozyt.github.io/amatistahc) <--
+
 ## Créditos
 
 **EQUIPO DE DESARROLLO**
