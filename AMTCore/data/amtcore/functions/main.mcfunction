@@ -8,6 +8,9 @@ function amtcore:mecanicas/efectos
 function amtcore:mecanicas/cuchara
 # Logros
 function amtcore:mecanicas/unlockach
+# Triggers
+function amtcore:triggers/reviveall
+function amtcore:triggers/funcionesexp
 
 ## COMANDOS
 scoreboard players add @a tiempo 1
